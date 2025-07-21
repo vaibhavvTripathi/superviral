@@ -4,7 +4,6 @@
 
 ## 🎥 Demo
 
-- [Loom Video Walkthrough](https://www.loom.com/share/0febfceebbc64136bea512a7d4a5b660?sid=8042cd82-4b8b-4086-b2d3-76882c9420f6)
 - [Google Drive (Sample Renders, Assets, etc.)](https://drive.google.com/drive/folders/1_KRsAhoG71xk6MCAbIT9Io8hUTl6Pa_j?usp=sharing)
 
 This project is a Next.js + Remotion app for generating programmatic videos, including:
