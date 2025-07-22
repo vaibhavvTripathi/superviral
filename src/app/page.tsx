@@ -1,5 +1,5 @@
 import React from "react";
-import { Rocket, MessageCircle, SplitSquareHorizontal } from "lucide-react";
+import { Rocket, MessageCircle, SplitSquareHorizontal,Star  } from "lucide-react";
 import Link from "next/link";
 
 const services = [
