@@ -1,5 +1,5 @@
 import React from "react";
-import { Rocket, MessageCircle, SplitSquareHorizontal } from "lucide-react";
+import { Rocket, MessageCircle, SplitSquareHorizontal,Star  } from "lucide-react";
 import Link from "next/link";
 
 const services = [
@@ -25,15 +25,25 @@ const services = [
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-white via-sky-50 to-gray-50 text-gray-900 flex flex-col items-center justify-center px-4">
-      <header className="w-full max-w-4xl flex flex-col items-center mb-16 mt-8">
-        <div className="flex items-center gap-3">
-          <Rocket className="h-10 w-10 text-blue-500 animate-bounce" />
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600 bg-clip-text text-transparent">
-            SuperViral
+    <main className="min-h-screen bg-gradient-to-br  text-gray-900 flex flex-col items-center justify-center px-4">
+      <section className="pt-32 pb-20 px-6 sm:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-8">
+            <Star className="h-4 w-4" />
+            <span>Trusted by content creators</span>
+          </div>
+          
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6">
+            Create Viral Videos
+            <span className="block text-blue-600">In Minutes</span>
           </h1>
+          
+          <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Transform your ideas into engaging videos with AI-powered tools. 
+            From Reddit stories to chat conversations, we make viral content creation effortless.
+          </p>
         </div>
-      </header>
+      </section>
       <section className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.map((service) => (
           <Link
